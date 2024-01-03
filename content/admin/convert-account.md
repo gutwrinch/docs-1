@@ -2,6 +2,8 @@
 description: Convert your Docker Hub user account into an organization
 title: Convert an account into an organization
 keywords: docker hub, hub, organization
+aliases:
+- /docker-hub/convert-account/
 ---
 
 You can convert an existing user account to an organization. This is useful if you need multiple users to access your account and the repositories that it’s connected to. Converting it to an organization gives you better control over permissions for these users through [teams](manage-a-team.md) and [roles](roles-and-permissions.md).
@@ -48,7 +50,7 @@ Consider the following effects of converting your account:
 
 1. Ensure you have removed your user account from any company or teams or organizations. Also make sure that you have a new Docker ID before you convert an account. See the [Prerequisites](#prerequisites) section for details.
 
-2. In the top-right of Docker Hub, select your account name and then from the drop-down menu, select **Account Settings**.
+2. In the top-right of Docker Hub, select your account name and then from the drop-down menu, select **My Account**.
 
 3. From the **Convert Account** tab, select **Convert to Organization**.
 

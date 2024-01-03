@@ -1,5 +1,5 @@
 ---
-title: Explore Builds (Beta)
+title: Explore Builds
 description: Understand how to use the Builds view in Docker Desktop
 keywords: Docker Dashboard, manage, gui, dashboard, builders, builds
 ---
@@ -9,22 +9,6 @@ keywords: Docker Dashboard, manage, gui, dashboard, builders, builds
 The **Builds** view is a simple interface that lets you inspect your build
 history and manage builders using Docker Desktop. By default, it
 displays a list of all your ongoing and completed builds.
-
-> **Beta feature**
->
-> The **Builds** view is currently in [Beta](../../release-lifecycle.md/#beta).
-> This feature may change or be removed from future releases.
-{ .experimental }
-
-## Turn on the Builds view
-
-1. Navigate to **Settings**.
-2. Select **Features in development**.
-3. In the **Beta features** tab, select the **Display Builds view** checkbox.
-4. Select **Apply & restart** for the changes to take effect.
-
-After the restart, the **Builds** view and the **Builders** settings menu
-appear.
 
 ## Show build list
 
@@ -142,7 +126,7 @@ or in the **Past builds** list below the history tab.
 To inspect your builders, and change your default builder, select **Builder
 settings** to open the settings menu.
 
-![Builder settings drop-down](../images/manage-builder-dropdown.webp)
+![Builder settings drop-down](../images/build-ui-manage-builders.webp)
 
 For more information about managing builders, see:
 

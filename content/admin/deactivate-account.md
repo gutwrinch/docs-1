@@ -2,6 +2,8 @@
 title: Deactivating an account or an organization
 description: Learn how to deactivate a Docker Hub account or an organization
 keywords: Docker Hub, delete, deactivate, account, organization
+aliases:
+- /docker-hub/deactivate-account/
 ---
 
 You can deactivate an account at any time. 
@@ -28,6 +30,8 @@ Before deactivating your Docker account, ensure that you meet the following requ
 
 - If you have an active Docker subscription, [downgrade it to a Docker Personal subscription](../subscription/downgrade.md).
 
+- If you have an active Docker Build Cloud Paid subscription, [downgrade it to a Docker Build Cloud Starter subscription](../billing/build-billing.md#downgrade-your-subscription).
+
 - If you have an active Docker Scout subscription, [downgrade it to a Docker Scout Free subscription](../billing/scout-billing.md#downgrade-your-subscription).
 
 - Download any images and tags you want to keep. Use `docker pull -a <image>:<tag>`.
@@ -38,7 +42,7 @@ Before deactivating your Docker account, ensure that you meet the following requ
 
 Once you have completed all the steps above, you can deactivate your account. 
 
-1. Select your account name in the top-right of Docker Hub and from the drop-down menu, select **Account Settings**.
+1. Select your account name in the top-right of Docker Hub and from the drop-down menu, select **My Account**.
 2. From the **Deactivate Account** tab, select **Deactivate account**. 
 
 > This cannot be undone. Be sure you've gathered all the data you need from your account before deactivating it.

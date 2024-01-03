@@ -14,7 +14,7 @@
   {{ partial "breadcrumbs.html" . }}
   <article class="DocSearch-content prose max-w-none dark:prose-invert">
     {{ with .Title }}
-    <h1 id="{{ anchorize . }}" class="scroll-mt-36">{{ . }}</h1>
+    <h1 class="scroll-mt-36">{{ . }}</h1>
     {{ end }}
     {{ $data.short | .RenderString (dict "display" "block") }}
     {{ if $data.deprecated }}
@@ -113,7 +113,8 @@
                   {{ partial "components/badge.html" (dict "color" "blue" "content" "Swarm") }}
                 {{ end }}
                 {{ if .description }}
-                  {{ $.RenderString .description }}
+                  {{/* replace newlines in long desc with break tags */}}
+                  {{ markdownify (strings.Replace .description "\n" "<br>") }}
                 {{ end }}
               </td>
             </tr>
